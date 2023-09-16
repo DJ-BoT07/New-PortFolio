@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import {  menu, close} from "../assets";
+import  logo1  from "../assets/logo1.png";
 
 const Navbar = () => {
   const [active, setactive] = useState(" ");
@@ -24,7 +25,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={logo}
+            src={logo1}
             alt="logo"
             className="w-9 h-9
  object-contain"
