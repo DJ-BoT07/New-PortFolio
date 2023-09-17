@@ -119,7 +119,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Frontend",
     icon: reactjs,
     iconBg: "#383E56",
     date: "March 2023 - Present",
@@ -218,7 +218,7 @@ const projects = [
       },
     ],
     image: gdsc,
-    source_code_link: "https://github.com/",
+    source_code_link: "https:/dj-portfolio07.netlify.app/",
   },
   {
     name: "DJ AI Tools",

@@ -4,7 +4,7 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
-import Feedbacks from './components/Feedbacks';
+import Services from './components/Services';
 import Hero from './components/Hero';
 import Tech from './components/Tech';
 import Works from './components/Works';
@@ -22,7 +22,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Services />
         <div className="relative z-0">
           <Contact />
           <StarCanvas />
