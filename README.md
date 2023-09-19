@@ -1,1 +1,1 @@
-Dont Zip still in Progressing Condition
+Sorry but daily commit
