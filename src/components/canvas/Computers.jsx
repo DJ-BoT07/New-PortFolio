@@ -1,12 +1,11 @@
-/* eslint-disable react/no-unknown-property */
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./robot/scene.gltf");
 
   return (
     <mesh>
@@ -22,9 +21,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.7 : 2.75}
+        position={isMobile ? [0, -3, -2.2] : [0, -4, 0]}
+        rotation={[-0.01, 2.25, -0.01]}
       />
     </mesh>
   );
@@ -63,10 +62,13 @@ const ComputersCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
+        {/* Add OrbitControls component with autoRotate and autoRotateSpeed */}
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          autoRotate // Enable auto-rotation
+          autoRotateSpeed={10} // Set the auto-rotation speed (adjust as needed)
         />
         <Computers isMobile={isMobile} />
       </Suspense>

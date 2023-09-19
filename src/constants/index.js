@@ -37,6 +37,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "Project",
+    title: "Project",
+  },
+  {
+    id: "Services",
+    title: "Services",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -56,7 +64,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Flutter Developer",
+    title: "Competative Programmer",
     icon: creator,
   },
 ];
@@ -132,7 +140,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "Tesla",
+    company_name: "Full Stack",
     icon: tailwind,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Present",
@@ -145,7 +153,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Amazon",
+    company_name: "React",
     icon: figma,
     iconBg: "#383E56",
     date: "Dec 2022 - Present",
@@ -157,11 +165,11 @@ const experiences = [
     ],
   },
   {
-    title: "Flutter Developer",
-    company_name: "Meta",
+    title: "Competative Programming",
+    company_name: "Python | Java",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Aug 2023 - Present",
+    date: "Dec 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
