@@ -21,11 +21,16 @@ import {
   meta,
   // tesla,
   // starbucks
+  // portals,
 } from "../assets";
 
 import gdsc from "../assets/gdsc.png";
 import openai from "../assets/openai.png";
 import crypto from "../assets/crypto.png";
+import portals from "../assets/portals.png";
+import gojo from "../assets/gojo.png";
+import github from "../assets/github.png";
+import codex1 from "../assets/codex1.png";
 
 export const navLinks = [
   {
@@ -60,7 +65,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Cloud Entusiast",
     icon: backend,
   },
   {
@@ -139,29 +144,29 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
-    company_name: "Full Stack",
-    icon: tailwind,
+    title: "3D Web Developer",
+    company_name: "3D",
+    icon: threejs,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and crafting immersive 3D web experiences using technologies like WebGL, Three.js, and related frameworks.",
+      "Collaborating closely with multidisciplinary teams, including 3D artists, designers, and product managers, to deliver captivating 3D web solutions.",
+      "Optimizing 3D content for responsive and performant designs across various platforms, ensuring seamless cross-browser and cross-device compatibility.",
+      "Active participation in code reviews, offering valuable insights and constructive feedback to fellow 3D web developers, to ensure the delivery of high-quality 3D web projects.",      
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "React",
-    icon: figma,
+    title: "Google Cloud Mentor",
+    company_name: "Cloud Study Jam",
+    icon: github,
     iconBg: "#383E56",
     date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively exploring Google Cloud technologies as a Study Jam member.",
+      "Collaborating with peers to enhance cloud knowledge and practical skills.",
+      "Contributing to cloud solution implementations with a focus on scalability and security.",
+      "Participating in knowledge-sharing and providing valuable insights during code reviews.",
     ],
   },
   {
@@ -171,40 +176,14 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Excelling in competitive programming through algorithm mastery and coding proficiency.",
+      "Collaborating within CPMC DYPCOE to foster a competitive and knowledge-sharing environment.",
+      "Staying updated on the latest programming trends.",
+      ",Actively participating in code reviews and providing constructive feedback to fellow members.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
@@ -250,9 +229,52 @@ const projects = [
     source_code_link: "https:/dj-bot07.github.io/DjAI-TOOLS/",
   },
   {
+    name: "Portals",
+    description:
+
+    "Through my Simple Interactive Metaverse Project Portals, users embark on immersive journeys within a dynamic digital realm, fostering engagement, creativity, and connection.",    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webgl",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portals,
+    source_code_link: "https://github.com/DJ-BoT07/Portals/",
+  },
+  {
+    name: "GitHub",
+    description:
+
+    "Within my GitHub repository, innovation takes form as code, where collaborative projects unfold, and creativity knows no bounds.",
+     tags: [
+      {
+        name: "git",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "github",
+        color: "green-text-gradient",
+      },
+      {
+        name: "open-source",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gojo,
+    source_code_link: "https://github.com/DJ-BoT07/",
+  },
+  {
     name: "CryptoMon",
     description:
-      "CryptoMon, harnessing the power of the Gecko API, offers real-time insights and data on cryptocurrencies, serving as a trusted companion for crypto enthusiasts and investors in their digital asset journey.",
+      "CryptoMon, harnessing the power of the Gecko API, serving as a trusted companion for crypto enthusiasts in their digital asset journey.",
     tags: [
       {
         name: "reactjs",
@@ -270,6 +292,27 @@ const projects = [
     image: crypto,
     source_code_link: "https:/dj-bot07.github.io/CryptoMons/",
   },
+  {
+    name: "FeelFree",
+    description:
+
+    "Explore my Mental Assessment Website, your path to self-discovery and well-being through insightful evaluation and personalized guidance.",    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: codex1,
+    source_code_link: "/",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

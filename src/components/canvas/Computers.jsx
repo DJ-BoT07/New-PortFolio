@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./robot/scene.gltf");
-
+  
   return (
     <mesh>
       <hemisphereLight intensity={1.1} groundColor='black' />

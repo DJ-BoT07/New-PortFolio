@@ -47,14 +47,14 @@ const Services = () => {
               data-aos-delay="200"
             >
               <AiFillAndroid className="text-4xl text-gray-100 mr-4" />
-              <span className="text-lg font-medium text-gray-100">App Development</span>
+              <span className="text-lg font-medium text-gray-100">Google Cloud</span>
             </div>
             <div
               className="rounded-lg shadow-lg py-8 px-10 mb-4 md:mb-8 lg:mb-0 bg-[#1d1836] col-span-2 flex justify-center items-center"
               data-aos="fade-up"
             >
               <AiFillWindows className="text-4xl text-gray-100 mr-4" />
-              <span className="text-lg font-medium text-gray-100">Machine Learning</span>
+              <span className="text-lg font-medium text-gray-100">Competitive Programming</span>
             </div>
           </div>
         </section>
